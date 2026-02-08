@@ -3,7 +3,7 @@ layout: default
 title: Jupiter Dog Beach
 ---
 
-<div style="text-align: center; background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('{{ "assets/images/20160617-125753-largejpg.jpg" | relative_url }}') no-repeat center center; background-size: cover; padding: 80px 20px; color: white; border-radius: 20px; margin-bottom: 40px;">
+<div style="text-align: center; background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('{{ "assets/images/dog_beach_action.jpg" | relative_url }}') no-repeat center center; background-size: cover; padding: 80px 20px; color: white; border-radius: 20px; margin-bottom: 40px;">
   <h1 style="font-size: 3rem; color: white; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);">Paws in the Sand</h1>
   <p style="font-size: 1.2rem; opacity: 0.9;">Freedom and Fun at Jupiter Dog Beach</p>
 </div>
