@@ -7,9 +7,25 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <style>
-      .nav-menu { background: #333; padding: 10px 0; text-align: center; }
-      .nav-menu a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #24292e;
+        --nav-bg: #333333;
+        --link-color: #0366d6;
+      }
+      [data-theme="dark"] {
+        --bg-color: #121212;
+        --text-color: #e0e0e0;
+        --nav-bg: #000000;
+        --link-color: #58a6ff;
+      }
+      body { background-color: var(--bg-color); color: var(--text-color); transition: background 0.3s, color 0.3s; }
+      .markdown-body { background-color: var(--bg-color) !important; color: var(--text-color) !important; }
+      .markdown-body a { color: var(--link-color); }
+      .nav-menu { background: var(--nav-bg); padding: 15px 0; text-align: center; display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; }
+      .nav-menu a { color: white; text-decoration: none; font-weight: bold; }
       .nav-menu a:hover { color: #ff385c; }
+      .theme-switch { cursor: pointer; padding: 5px 10px; border: 1px solid white; border-radius: 20px; color: white; font-size: 0.8rem; background: transparent; }
     </style>
   </head>
   <body>
@@ -19,10 +35,31 @@
       <a href="{{ "/dog_beach/" | relative_url }}">Dog Beach</a>
       <a href="{{ "/restaurants/" | relative_url }}">Dining</a>
       <a href="{{ "/contact/" | relative_url }}">Contact</a>
+      <button class="theme-switch" id="theme-toggle">🌙 Dark Mode</button>
     </nav>
     <div class="container-lg px-3 my-5 markdown-body">
       {{ content }}
     </div>
+    <script>
+      const toggle = document.getElementById('theme-toggle');
+      const currentTheme = localStorage.getItem('theme');
+      if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        if (currentTheme === 'dark') toggle.textContent = '☀️ Light Mode';
+      }
+      toggle.addEventListener('click', () => {
+        let theme = document.documentElement.getAttribute('data-theme');
+        if (theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+          toggle.textContent = '🌙 Dark Mode';
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+          toggle.textContent = '☀️ Light Mode';
+        }
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTb7h1JPQjW7mIV8qD4=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
