@@ -50,6 +50,24 @@ title: Local Dining & Guidebook
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍣 Something for Everyone</span>
     </div>
 
+    <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
+      <h3 style="margin-top: 0;"><a href="https://www.utikibeach.com/" target="_blank" style="text-decoration: none; color: inherit;">U-Tiki Beach</a></h3>
+      <p><strong>The Vibe:</strong> Tropical waterfront dining with spectacular views of the Jupiter Lighthouse and incredible sunsets.</p>
+      <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🏝️ Lighthouse Views</span>
+    </div>
+
+    <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
+      <h3 style="margin-top: 0;"><a href="https://topsidejupiter.com/" target="_blank" style="text-decoration: none; color: inherit;">Topside at the Beacon</a></h3>
+      <p><strong>The Vibe:</strong> A vibrant rooftop destination for craft cocktails and small bites with unparalleled views of the inlet.</p>
+      <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍸 Rooftop Bar</span>
+    </div>
+
+    <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
+      <h3 style="margin-top: 0;"><a href="https://luckyshuckjupiter.com/" target="_blank" style="text-decoration: none; color: inherit;">Lucky Shuck</a></h3>
+      <p><strong>The Vibe:</strong> Oyster bar and taphouse offering a modern take on Gulf Coast favorites and an impressive selection of local beers.</p>
+      <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🦪 Oyster Bar</span>
+    </div>
+
   </div>
 </div>
 
