@@ -10,17 +10,34 @@ title: Rules & Restrictions
 
 <div class="content-card">
   <h2>📋 Important Guidelines</h2>
-  <p>To maintain the serene atmosphere of the Jupiter Ocean & Racquet Club, we ask all guests to adhere to the following community guidelines and restrictions.</p>
+  <p>To maintain the serene atmosphere of the Jupiter Ocean & Racquet Club, we ask all guests to adhere to the following community guidelines and association rules.</p>
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-bottom: 30px;">
   <div class="content-card" style="margin-bottom: 0; border-left: 5px solid #ff385c;">
-    <h3>🐾 Pet Policy</h3>
-    <p>We are proudly pet-friendly! However, please ensure pets are leashed at all times when in common areas and always pick up after them to keep our gardens beautiful.</p>
+    <h3>🚗 Parking & Guest Access</h3>
+    <p>Designated parking is available, along with ample guest parking. A <strong>parking pass</strong> will be issued at the on-site office.</p>
+    <p style="color: #d9534f; font-weight: bold;">⚠️ IMPORTANT: TRUCKS ARE NOT PERMITTED to park on the premises according to association rules.</p>
+    <p>There is separate parking available for pickup trucks on the next street over, which is less than a 5-minute walk away.</p>
   </div>
   <div class="content-card" style="margin-bottom: 0; border-left: 5px solid #ff385c;">
-    <h3>🤫 Quiet Hours</h3>
-    <p>Please respect our neighbors by observing quiet hours from <strong>10:00 PM to 8:00 AM</strong>. We appreciate your cooperation in keeping the community peaceful.</p>
+    <h3>📝 Check-in Requirements</h3>
+    <p>Please complete the rental application and agreement prior to check-in (this will be emailed to you). A <strong>government-issued ID</strong> is required at least 4 days before receiving your parking permit.</p>
+  </div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-bottom: 30px;">
+  <div class="content-card" style="margin-bottom: 0; border-left: #007bff 5px solid;">
+    <h3>🐾 Pet Policy</h3>
+    <p>We are proudly pet-friendly! Please <strong>contact Michelle</strong> regarding any pets, as the association has a pet policy with specific weight restrictions.</p>
+  </div>
+  <div class="content-card" style="margin-bottom: 0; border-left: #007bff 5px solid;">
+    <h3>🚫 House Rules</h3>
+    <ul>
+      <li><strong>Absolutely NO PARTIES</strong> are allowed on the property or within the unit.</li>
+      <li><strong>NO SMOKING</strong> is permitted inside the condo.</li>
+      <li>Quiet hours: 10:00 PM to 8:00 AM.</li>
+    </ul>
   </div>
 </div>
 
@@ -31,4 +48,5 @@ title: Rules & Restrictions
     <li>No glass containers are allowed in the pool area.</li>
     <li>Guests must adhere to all posted safety signs and regulations.</li>
   </ul>
+  <p><em>Further details regarding your stay and community policies can be found in the lease agreement.</em></p>
 </div>
