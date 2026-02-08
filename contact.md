@@ -1,0 +1,2 @@
+## Contact Us  
+For inquiries about our beautiful condo rental or any assistance you may require, please don't hesitate to reach out to us. You can contact us via email at **info@rmmbeachside.com** or call us directly at **516-340-2287**. We are excited to assist you and ensure your stay is exceptional!

@@ -1,0 +1,13 @@
+title: Jupiter Beachside Getaway
+email: rob@robm.info
+description: >- # this means to ignore newlines until "baseurl:"
+  Experience an idyllic coastal retreat in Jupiter, FL. Steps from the shoreline and pet-friendly!
+baseurl: "/Claud-rmmbeachside" # the subpath of your site, e.g. /blog
+url: "https://romorris.github.io" # the base hostname & protocol for your site
+theme: jekyll-theme-cayman # Using a flashy default theme
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
