@@ -45,7 +45,7 @@ title: Local Dining & Guidebook
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;"><a href="https://2vinez.com/" target="_blank" style="text-decoration: none; color: inherit;">2 Vinez</a></h3>
+      <h3 style="margin-top: 0;"><a href="https://2vinezjupiter.com/" target="_blank" style="text-decoration: none; color: inherit;">2 Vinez</a></h3>
       <p><strong>The Vibe:</strong> Cozy atmosphere where you can dine at the bar or on a couch. Extensive menu from sushi to pizza.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍣 Something for Everyone</span>
     </div>
