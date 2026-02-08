@@ -3,65 +3,64 @@ layout: default
 title: Jupiter Beachside Getaway
 ---
 
-<div style="text-align: center; background: url('https://www.prlog.org/12498995-jupiter-beach-entrance.jpg') no-repeat center center; background-size: cover; padding: 100px 20px; color: white; border-radius: 15px; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
-  <h1 style="font-size: 3rem;">Experience an Idyllic Coastal Retreat</h1>
-  <p style="font-size: 1.5rem;">One Bedroom • 1.5 Bath • Steps from the Shoreline • Pet Friendly</p>
-  <a href="https://www.airbnb.com/rooms/50998727?guests=1&adults=1&s=67&unique_share_id=a9cfefc3-4e68-413a-863b-23c0c6ce1c1a" style="display: inline-block; background-color: #ff385c; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; font-size: 1.2rem;">Book on Airbnb</a>
+<div style="text-align: center; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://www.prlog.org/12498995-jupiter-beach-entrance.jpg') no-repeat center center; background-size: cover; padding: 120px 20px; color: white; border-radius: 20px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+  <h1 style="font-size: 3.5rem; color: white; margin-bottom: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);">Jupiter Beachside Getaway</h1>
+  <p style="font-size: 1.4rem; margin-bottom: 30px; opacity: 0.9;">One Bedroom • 1.5 Bath • Steps from the Shoreline • Pet Friendly</p>
+  <a href="https://www.airbnb.com/rooms/50998727?guests=1&adults=1&s=67&unique_share_id=a9cfefc3-4e68-413a-863b-23c0c6ce1c1a" style="display: inline-block; background-color: #ff385c; color: white; padding: 18px 40px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem; transition: all 0.3s; box-shadow: 0 4px 15px rgba(255, 56, 92, 0.4);">Book Your Stay</a>
 </div>
 
-## 🌴 The Space
-A generous **850 sq ft** of beautifully appointed living space awaits you, complete with a private screened patio that overlooks a peaceful canal and lush greenery.
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 30px 0;">
-  <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 5px solid #007bff;">
-    <h3>Comforts</h3>
-    <ul>
-      <li>Sumptuous <strong>king-size bed</strong></li>
-      <li>Spacious <strong>walk-in closet</strong></li>
-      <li>Cozy living room with <strong>65" Smart TV</strong></li>
-    </ul>
+<div class="content-card">
+  <h2 style="text-align: center; margin-bottom: 30px;">🌴 Welcome to Paradise</h2>
+  <p style="font-size: 1.1rem; text-align: center; max-width: 800px; margin: 0 auto 30px;">Nestled just a leisurely stroll away from Jupiter’s breathtaking shoreline, this spacious condo combines coastal charm with ultimate convenience.</p>
+  
+  <div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center;">
+    <div style="flex: 1; min-width: 280px; background: rgba(0, 123, 255, 0.05); padding: 25px; border-radius: 15px; border-top: 5px solid #007bff;">
+      <h3 style="color: #007bff;">The Space</h3>
+      <p><strong>850 sq ft</strong> of beautifully appointed living space with a private screened patio overlooking a peaceful canal.</p>
+      <ul style="padding-left: 20px;">
+        <li>Sumptuous King Bed</li>
+        <li>Walk-in Closet</li>
+        <li>65" Smart TV</li>
+      </ul>
+    </div>
+    <div style="flex: 1; min-width: 280px; background: rgba(40, 167, 69, 0.05); padding: 25px; border-radius: 15px; border-top: 5px solid #28a745;">
+      <h3 style="color: #28a745;">Modern Comforts</h3>
+      <p>Fully equipped for extended stays with all the essentials of home.</p>
+      <ul style="padding-left: 20px;">
+        <li>Full Kitchen & Dining Area</li>
+        <li>In-unit Washer/Dryer</li>
+        <li>High-speed WiFi</li>
+      </ul>
+    </div>
   </div>
-  <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 5px solid #28a745;">
-    <h3>Essentials</h3>
-    <ul>
-      <li>Fully equipped <strong>kitchen</strong></li>
-      <li><strong>Washer and dryer</strong> in unit</li>
-      <li>High-speed <strong>WiFi</strong></li>
-    </ul>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 40px;">
+  <div class="content-card" style="margin-bottom: 0;">
+    <h3>🐶 Pet Friendly</h3>
+    <p>Enjoy the luxury of being steps away from one of Florida’s renowned **off-leash dog beaches**.</p>
+    <img src="{{ 'assets/images/20160617-125753-largejpg.jpg' | relative_url }}" alt="Jupiter Dog Beach" style="width: 100%; height: 200px; object-fit: cover;">
+  </div>
+  <div class="content-card" style="margin-bottom: 0;">
+    <h3>🏊‍♂️ Relax & Recharge</h3>
+    <p>The community pool is directly across the street, perfect for a refreshing dip after a day at the beach.</p>
+    <img src="http://media.expedia.com/media/content/shared/images/travelguides/destination/8007/Jupiter-Beach-23187.jpg" alt="Jupiter Pool" style="width: 100%; height: 200px; object-fit: cover;">
   </div>
 </div>
 
----
-
-## 🐶 Pet Friendly & Adjacent to Jupiter Dog Beach
-Traveling with your furry friend? Enjoy the luxury of being just steps away from one of Florida’s renowned **off-leash dog beaches**—a unique opportunity that makes this rental a standout choice for pet lovers.
-
----
-
-## 🚶‍♂️ Explore the Surroundings
-*   **Jupiter Beach** – perfect for sunbathing and beachcombing (short walk away).
-*   **Carlin Park** – scenic biking and walking trails (5 mins away).
-*   **Harbourside Place** – eclectic shopping and dining (5 mins away).
-*   **Outdoor Activities** – snorkeling, kayaking, and fishing charters nearby.
-
----
-
-## ⭐ Exceptional Amenities
-<div style="column-count: 2; column-gap: 40px;">
-  <p>✅ Picturesque beach access</p>
-  <p>✅ Convenient first-floor unit</p>
-  <p>✅ Reserved parking out front</p>
-  <p>✅ Pet-friendly atmosphere</p>
-  <p>✅ 65" Smart TV with cable</p>
-  <p>✅ Private screened patio</p>
-  <p>✅ Community swimming pool</p>
-  <p>✅ Full in-unit laundry</p>
+<div class="content-card" style="text-align: center;">
+  <h3>⭐ Exceptional Amenities</h3>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+    <span style="background: #eee; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;">🏖️ Beach Access</span>
+    <span style="background: #eee; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;">🚗 Reserved Parking</span>
+    <span style="background: #eee; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;">📶 High-speed WiFi</span>
+    <span style="background: #eee; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;">📺 65" Smart TV</span>
+    <span style="background: #eee; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: 600;">🌿 Private Patio</span>
+  </div>
 </div>
 
----
-
-<div style="text-align: center; margin-top: 50px; padding: 40px; background: #e9ecef; border-radius: 15px;">
-  <h2>Ready to Unwind?</h2>
-  <p>Immerse yourself in the sun-kissed paradise of Jupiter, Florida.</p>
-  <a href="https://www.airbnb.com/rooms/50998727" style="display: inline-block; background-color: #007bff; color: white; padding: 15px 40px; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 1.3rem; transition: background 0.3s;">Check Availability</a>
+<div style="text-align: center; margin-top: 50px; padding: 60px 20px; background: #333; color: white; border-radius: 20px; box-shadow: var(--shadow);">
+  <h2 style="color: white; font-size: 2.5rem; margin-bottom: 15px;">Ready to Unwind?</h2>
+  <p style="font-size: 1.2rem; margin-bottom: 30px; opacity: 0.8;">Immerse yourself in the sun-kissed paradise of Jupiter, Florida.</p>
+  <a href="https://www.airbnb.com/rooms/50998727" style="display: inline-block; background-color: #007bff; color: white; padding: 18px 50px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.3rem; transition: all 0.3s; box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);">Check Availability</a>
 </div>
