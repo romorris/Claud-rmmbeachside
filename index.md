@@ -44,7 +44,7 @@ title: Jupiter Beachside Getaway
   <div class="content-card" style="margin-bottom: 0;">
     <h3>🏊‍♂️ Relax & Recharge</h3>
     <p>The community pool is directly across the street, perfect for a refreshing dip after a day at the beach.</p>
-    <img src="http://media.expedia.com/media/content/shared/images/travelguides/destination/8007/Jupiter-Beach-23187.jpg" alt="Jupiter Pool" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="{{ 'assets/images/pool_overhead.jpg' | relative_url }}" alt="Jupiter Pool" style="width: 100%; height: 200px; object-fit: cover;">
   </div>
 </div>
 
