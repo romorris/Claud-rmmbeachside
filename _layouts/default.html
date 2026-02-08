@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      .nav-menu { background: #333; padding: 10px 0; text-align: center; }
+      .nav-menu a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+      .nav-menu a:hover { color: #ff385c; }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-menu">
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/JORC/" | relative_url }}">Condo Info</a>
+      <a href="{{ "/dog_beach/" | relative_url }}">Dog Beach</a>
+      <a href="{{ "/restaurants/" | relative_url }}">Dining</a>
+      <a href="{{ "/contact/" | relative_url }}">Contact</a>
+    </nav>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {{ content }}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTb7h1JPQjW7mIV8qD4=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

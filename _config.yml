@@ -1,21 +1,25 @@
 title: Jupiter Beachside Getaway
 email: rob@robm.info
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Experience an idyllic coastal retreat in Jupiter, FL. Steps from the shoreline and pet-friendly!
-baseurl: "/Claud-rmmbeachside" # the subpath of your site, e.g. /blog
-url: "https://romorris.github.io" # the base hostname & protocol for your site
-theme: jekyll-theme-cayman # Using a flashy default theme
+baseurl: "/Claud-rmmbeachside"
+url: "https://romorris.github.io"
+remote_theme: pages-themes/minimal@v0.2.0
 
-# Navigation Menu
-header_pages:
-  - index.md
-  - JORC.md
-  - dog_beach.md
-  - restaurants.md
-  - contact.md
+# Navigation
+nav:
+  - name: Home
+    link: /
+  - name: Condo Info
+    link: /JORC/
+  - name: Dog Beach
+    link: /dog_beach/
+  - name: Dining
+    link: /restaurants/
+  - name: Contact
+    link: /contact/
 
-# Build settings
-markdown: kramdown
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
