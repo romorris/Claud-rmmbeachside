@@ -3,7 +3,7 @@ layout: default
 title: Jupiter Ocean & Racquet Club
 ---
 
-<div style="text-align: center; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('{{ "assets/images/trees.png" | relative_url }}') no-repeat center center; background-size: cover; padding: 80px 20px; color: white; border-radius: 20px; margin-bottom: 40px;">
+<div style="text-align: center; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80') no-repeat center center; background-size: cover; padding: 80px 20px; color: white; border-radius: 20px; margin-bottom: 40px;">
   <h1 style="font-size: 3rem; color: white; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);">Jupiter Ocean & Racquet Club</h1>
   <p style="font-size: 1.2rem; opacity: 0.9;">1605 S US Highway 1 • Jupiter, Florida</p>
 </div>
