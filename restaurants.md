@@ -15,37 +15,37 @@ title: Local Dining & Guidebook
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px;">
     
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;">Captain Charlie's Reef Grill</h3>
+      <h3 style="margin-top: 0;"><a href="https://www.captaincharliesreefgrillfl.com/" target="_blank" style="text-decoration: none; color: inherit;">Captain Charlie's Reef Grill</a></h3>
       <p><strong>The Vibe:</strong> Michelle's absolute favorite local spot for the freshest seafood. Super casual with an extensive wine list.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">📍 Juno Beach</span>
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;">Thirsty Turtle Seagrill</h3>
+      <h3 style="margin-top: 0;"><a href="https://thirstyturtleseagrill.com/" target="_blank" style="text-decoration: none; color: inherit;">Thirsty Turtle Seagrill</a></h3>
       <p><strong>The Vibe:</strong> A super casual local hangout. If you're looking for great wings, this is the place to be.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍗 Famous for Wings</span>
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;">Lynora’s Italian Restaurant</h3>
+      <h3 style="margin-top: 0;"><a href="https://www.lynoras.com/jupiter/" target="_blank" style="text-decoration: none; color: inherit;">Lynora’s Italian Restaurant</a></h3>
       <p><strong>The Vibe:</strong> Incredible Happy Hour every day (1/2 off all drinks 3-6 PM). Huge Sunday brunch spot with a live DJ.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍝 Italian & Brunch</span>
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;">Little Moir's Leftovers</h3>
+      <h3 style="margin-top: 0;"><a href="https://www.littlemoirs.com/leftovers/" target="_blank" style="text-decoration: none; color: inherit;">Little Moir's Leftovers</a></h3>
       <p><strong>The Vibe:</strong> A staple in the Jupiter food scene. Always check their daily specials for unique, fresh creations.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">✨ Daily Specials</span>
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;">Calaveras Cantina</h3>
+      <h3 style="margin-top: 0;"><a href="https://www.calaverascantinas.com/" target="_blank" style="text-decoration: none; color: inherit;">Calaveras Cantina</a></h3>
       <p><strong>The Vibe:</strong> Located in Harbourside Place (close to the condo). Great spot for Mexican food and drinks.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🌮 Harbourside</span>
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;">2 Vinez</h3>
+      <h3 style="margin-top: 0;"><a href="https://www.2vinez.com/" target="_blank" style="text-decoration: none; color: inherit;">2 Vinez</a></h3>
       <p><strong>The Vibe:</strong> Cozy atmosphere where you can dine at the bar or on a couch. Extensive menu from sushi to pizza.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍣 Something for Everyone</span>
     </div>
@@ -57,15 +57,15 @@ title: Local Dining & Guidebook
   <h2>🛍️ Shopping & Entertainment Hubs</h2>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
     <div>
-      <h3 style="color: #ff385c;">Harbourside Place</h3>
+      <h3 style="color: #ff385c;"><a href="https://harboursideplace.com/" target="_blank" style="text-decoration: none; color: inherit;">Harbourside Place</a></h3>
       <p>Grab drinks, food, and do some shopping all in one beautiful waterfront spot. Home to <strong>The Woods Jupiter</strong> and <strong>Tommy Bahama</strong>.</p>
     </div>
     <div>
-      <h3 style="color: #ff385c;">Downtown at the Gardens</h3>
+      <h3 style="color: #ff385c;"><a href="https://downtownatthegardens.com/" target="_blank" style="text-decoration: none; color: inherit;">Downtown at the Gardens</a></h3>
       <p>A massive collection of shops and restaurants including Cheesecake Factory, Whole Foods, and Yardhouse.</p>
     </div>
     <div>
-      <h3 style="color: #ff385c;">Alton Town Center</h3>
+      <h3 style="color: #ff385c;"><a href="https://www.altontowncenter.com/" target="_blank" style="text-decoration: none; color: inherit;">Alton Town Center</a></h3>
       <p>Great for basics and quick eats: Starbucks, Chipotle, Longhorn Steakhouse, and LA Fitness.</p>
     </div>
   </div>
