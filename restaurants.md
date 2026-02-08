@@ -68,6 +68,12 @@ title: Local Dining & Guidebook
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🦪 Oyster Bar</span>
     </div>
 
+    <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
+      <h3 style="margin-top: 0;"><a href="https://divebarrestaurant.com/" target="_blank" style="text-decoration: none; color: inherit;">Dive Bar</a></h3>
+      <p><strong>The Vibe:</strong> An upscale marina destination featuring giant saltwater aquariums and a diverse menu from sushi to fresh local catches.</p>
+      <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🐠 Marina & Sushi</span>
+    </div>
+
   </div>
 </div>
 
