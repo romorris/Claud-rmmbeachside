@@ -6,6 +6,14 @@ baseurl: "/Claud-rmmbeachside" # the subpath of your site, e.g. /blog
 url: "https://romorris.github.io" # the base hostname & protocol for your site
 theme: jekyll-theme-cayman # Using a flashy default theme
 
+# Navigation Menu
+header_pages:
+  - index.md
+  - JORC.md
+  - dog_beach.md
+  - restaurants.md
+  - contact.md
+
 # Build settings
 markdown: kramdown
 plugins:
