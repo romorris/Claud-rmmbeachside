@@ -38,7 +38,6 @@
       }
       h1, h2, h3 { font-family: 'Montserrat', sans-serif; font-weight: 700; color: var(--accent-color); }
       
-      /* Modern Navigation */
       .nav-container {
         position: sticky;
         top: 0;
@@ -46,84 +45,96 @@
         background: var(--nav-bg);
         backdrop-filter: blur(10px);
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        padding: 15px 0;
+        padding: 5px 0;
       }
       .nav-menu { 
-        max-width: 1000px;
+        max-width: 1100px;
         margin: 0 auto;
         display: flex; 
         justify-content: center; 
         align-items: center; 
-        gap: 25px; 
+        gap: 20px; 
         flex-wrap: wrap; 
       }
-      .nav-menu a { 
+      .nav-item { position: relative; padding: 10px 0; }
+      .nav-menu a, .dropbtn { 
         color: var(--nav-text); 
         text-decoration: none; 
         font-weight: 600; 
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         text-transform: uppercase;
         letter-spacing: 1px;
         transition: color 0.2s;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 5px 10px;
       }
-      .nav-menu a:hover { color: var(--accent-color); }
+      .nav-menu a:hover, .dropdown:hover .dropbtn { color: var(--accent-color); }
       
+      /* Dropdown Logic */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--card-bg);
+        min-width: 200px;
+        box-shadow: var(--shadow);
+        z-index: 1;
+        border-radius: 8px;
+        top: 100%;
+        left: 0;
+        overflow: hidden;
+      }
+      .dropdown-content a {
+        color: var(--text-color);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-transform: none;
+        font-size: 0.9rem;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+      }
+      .dropdown-content a:hover { background-color: rgba(255, 56, 92, 0.1); color: var(--accent-color); }
+      .dropdown:hover .dropdown-content { display: block; }
+
       .theme-switch { 
         cursor: pointer; 
-        padding: 6px 15px; 
+        padding: 5px 12px; 
         border: 2px solid var(--accent-color); 
         border-radius: 25px; 
         color: var(--accent-color); 
-        font-size: 0.8rem; 
+        font-size: 0.75rem; 
         background: transparent;
         font-weight: bold;
         transition: all 0.2s;
       }
       .theme-switch:hover { background: var(--accent-color); color: white; }
 
-      /* Content Styling */
-      .container-lg { 
-        max-width: 1000px; 
-        margin: 40px auto; 
-        padding: 0 20px; 
-      }
-      .markdown-body { 
-        background-color: transparent !important; 
-        color: var(--text-color) !important; 
-      }
-      
-      /* Custom Card Vibe */
-      .content-card {
-        background: var(--card-bg);
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: var(--shadow);
-        margin-bottom: 30px;
-      }
-
-      /* Hero Button Update */
-      .btn-primary {
-        background-color: var(--accent-color) !important;
-        border: none !important;
-        transition: transform 0.2s, box-shadow 0.2s !important;
-      }
-      .btn-primary:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(255, 56, 92, 0.4);
-      }
-
-      img { border-radius: 10px; box-shadow: var(--shadow); }
+      .container-lg { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+      .markdown-body { background-color: transparent !important; color: var(--text-color) !important; }
+      .content-card { background: var(--card-bg); padding: 30px; border-radius: 15px; box-shadow: var(--shadow); margin-bottom: 30px; }
+      img { border-radius: 10px; box-shadow: var(--shadow); max-width: 100%; }
     </style>
   </head>
   <body>
     <div class="nav-container">
       <nav class="nav-menu">
-        <a href="{{ "/" | relative_url }}">Home</a>
-        <a href="{{ "/JORC.html" | relative_url }}">Condo Info</a>
-        <a href="{{ "/dog_beach.html" | relative_url }}">Dog Beach</a>
-        <a href="{{ "/restaurants.html" | relative_url }}">Dining</a>
-        <a href="{{ "/contact.html" | relative_url }}">Contact</a>
-        <button class="theme-switch" id="theme-toggle">🌙 Dark Mode</button>
+        <div class="nav-item"><a href="{{ "/" | relative_url }}">Home</a></div>
+        
+        <div class="nav-item dropdown">
+          <button class="dropbtn">Condo Info ▾</button>
+          <div class="dropdown-content">
+            <a href="{{ "/JORC.html" | relative_url }}">Community Overview</a>
+            <a href="{{ "/kitchen.html" | relative_url }}">Kitchen & Cooking</a>
+            <a href="{{ "/parking.html" | relative_url }}">Parking & Access</a>
+            <a href="{{ "/restrictions.html" | relative_url }}">Rules & Restrictions</a>
+          </div>
+        </div>
+
+        <div class="nav-item"><a href="{{ "/dog_beach.html" | relative_url }}">Dog Beach</a></div>
+        <div class="nav-item"><a href="{{ "/restaurants.html" | relative_url }}">Dining</a></div>
+        <div class="nav-item"><a href="{{ "/contact.html" | relative_url }}">Contact</a></div>
+        <div class="nav-item"><button class="theme-switch" id="theme-toggle">🌙 Dark Mode</button></div>
       </nav>
     </div>
     <div class="container-lg px-3">
