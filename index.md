@@ -39,7 +39,7 @@ title: Jupiter Beachside Getaway
   <div class="content-card" style="margin-bottom: 0;">
     <h3>🐶 Pet Friendly</h3>
     <p>Enjoy the luxury of being steps away from one of Florida’s renowned **off-leash dog beaches**.</p>
-    <img src="{{ 'assets/images/20160617-125753-largejpg.jpg' | relative_url }}" alt="Jupiter Dog Beach" style="width: 100%; height: 200px; object-fit: cover;">
+    <img src="{{ 'assets/images/dog_beach_action.jpg' | relative_url }}" alt="Jupiter Dog Beach" style="width: 100%; height: 200px; object-fit: cover;">
   </div>
   <div class="content-card" style="margin-bottom: 0;">
     <h3>🏊‍♂️ Relax & Recharge</h3>
