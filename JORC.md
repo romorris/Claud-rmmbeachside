@@ -1,7 +1,7 @@
 ---  
 title: Jupiter Ocean & Racquet Club  
 ---  
-<meta property="og:image" content="image/jupiter_ocean_racquet_club.png" />  
+<meta property="og:image" content="assets/images/jupiter_ocean_racquet_club.png" />  
 # Jupiter Ocean & Racquet Club — Jupiter, Florida  
 ### Overview  
 The **Jupiter Ocean & Racquet Club** is a stunning and vibrant community located at **1605 S US Highway 1 in Jupiter, Florida**, just steps from the pristine beaches of the Atlantic Ocean. This luxurious condominium complex is well-known for its beautiful landscapes, superior amenities, and exceptional access to the best of South Florida living.  
