@@ -3,7 +3,7 @@ layout: default
 title: Jupiter Beachside Getaway
 ---
 
-<div style="text-align: center; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://www.prlog.org/12498995-jupiter-beach-entrance.jpg') no-repeat center center; background-size: cover; padding: 120px 20px; color: white; border-radius: 20px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+<div style="text-align: center; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('{{ "assets/images/rmmbeachside.png" | relative_url }}') no-repeat center center; background-size: cover; padding: 120px 20px; color: white; border-radius: 20px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
   <h1 style="font-size: 3.5rem; color: white; margin-bottom: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);">Jupiter Beachside Getaway</h1>
   <p style="font-size: 1.4rem; margin-bottom: 30px; opacity: 0.9;">One Bedroom • 1.5 Bath • Steps from the Shoreline • Pet Friendly</p>
   <a href="https://www.airbnb.com/rooms/50998727?guests=1&adults=1&s=67&unique_share_id=a9cfefc3-4e68-413a-863b-23c0c6ce1c1a" style="display: inline-block; background-color: #ff385c; color: white; padding: 18px 40px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem; transition: all 0.3s; box-shadow: 0 4px 15px rgba(255, 56, 92, 0.4);">Book Your Stay</a>
