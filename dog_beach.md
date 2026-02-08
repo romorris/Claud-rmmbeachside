@@ -32,6 +32,6 @@ title: Jupiter Dog Beach
 <div class="content-card" style="text-align: center;">
   <h3>🌊 Experience the Surf</h3>
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 15px; margin-top: 20px;">
-    <iframe src="https://www.youtube.com/embed/vDjjh9sx3LI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/vDjjh9sx3LI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
