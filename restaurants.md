@@ -21,7 +21,7 @@ title: Local Dining & Guidebook
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;"><a href="https://thirstyturtleseagrill.com/" target="_blank" style="text-decoration: none; color: inherit;">Thirsty Turtle Seagrill</a></h3>
+      <h3 style="margin-top: 0;"><a href="https://thirstyturtlefl.com/" target="_blank" style="text-decoration: none; color: inherit;">Thirsty Turtle Seagrill</a></h3>
       <p><strong>The Vibe:</strong> A super casual local hangout. If you're looking for great wings, this is the place to be.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍗 Famous for Wings</span>
     </div>
@@ -39,13 +39,13 @@ title: Local Dining & Guidebook
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;"><a href="https://www.calaverascantinas.com/" target="_blank" style="text-decoration: none; color: inherit;">Calaveras Cantina</a></h3>
+      <h3 style="margin-top: 0;"><a href="https://calaverascantina.com/jupiter/" target="_blank" style="text-decoration: none; color: inherit;">Calaveras Cantina</a></h3>
       <p><strong>The Vibe:</strong> Located in Harbourside Place (close to the condo). Great spot for Mexican food and drinks.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🌮 Harbourside</span>
     </div>
 
     <div style="background: rgba(0,0,0,0.03); padding: 20px; border-radius: 15px; border-left: 5px solid #ff385c;">
-      <h3 style="margin-top: 0;"><a href="https://www.2vinez.com/" target="_blank" style="text-decoration: none; color: inherit;">2 Vinez</a></h3>
+      <h3 style="margin-top: 0;"><a href="https://2vinez.com/" target="_blank" style="text-decoration: none; color: inherit;">2 Vinez</a></h3>
       <p><strong>The Vibe:</strong> Cozy atmosphere where you can dine at the bar or on a couch. Extensive menu from sushi to pizza.</p>
       <span style="font-size: 0.8rem; background: #eee; padding: 4px 10px; border-radius: 10px;">🍣 Something for Everyone</span>
     </div>
